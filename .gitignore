@@ -1,0 +1,15 @@
+# datasets
+data/
+dataset/
+*.zip
+
+# model weights
+*.pt
+*.pth
+*.ckpt
+*.keras
+
+# logs
+runs/
+outputs/
+__pycache__/
