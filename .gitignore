@@ -1,15 +1,24 @@
-# datasets
-data/
-dataset/
-*.zip
+# Local datasets
+lol_dataset/
+loli_yolo/
+loli_yolo_enhanced/
 
-# model weights
-*.pt
-*.pth
-*.ckpt
-*.keras
-
-# logs
+# Intermediate checkpoints and generated training output
+snapshots_fixed/Epoch_*.pth
+yolo_training/
 runs/
-outputs/
+visuals_fixed/
+
+# Python / notebooks
 __pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments / IDE / OS
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
