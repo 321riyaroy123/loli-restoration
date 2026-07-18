@@ -3,6 +3,9 @@ lol_dataset/
 loli_yolo/
 loli_yolo_enhanced/
 
+# Sample videos
+samples/*.mp4
+
 # Intermediate checkpoints and generated training output
 snapshots_fixed/Epoch_*.pth
 yolo_training/
@@ -22,3 +25,4 @@ venv/
 .idea/
 .DS_Store
 Thumbs.db
+
